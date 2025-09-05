@@ -1,5 +1,8 @@
-baseURL: "https://muhammedbulutay.com"
-title: "Muhammed Bulutay"
+<<<<<<< HEAD
+=======
+baseURL: "https://muhammedbulutay.com/" 
+title: Muhammed Bulutay
+>>>>>>> ddf72998f1a1390cd01755792f72cf4bc3b89c0d
 theme: PaperMod
 
 enableInlineShortcodes: true
