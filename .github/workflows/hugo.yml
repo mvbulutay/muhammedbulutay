@@ -30,12 +30,8 @@ jobs:
           hugo-version: "0.149.0"
           extended: true
 
-      # If your theme needs Sass, this provides the compiler Hugo expects.
-      - name: Install Dart Sass (embedded)
-        run: npm i -g sass-embedded
-
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --config config.yml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
